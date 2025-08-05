@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx --env-file=.env src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm run dist && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API que reúne funções úteis para trabalhar principalmente com e-commerces.",
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
