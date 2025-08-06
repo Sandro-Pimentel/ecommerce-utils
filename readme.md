@@ -1,4 +1,4 @@
-# Criando uma biblioteca para e-commerce
+# Criando uma biblioteca utilitária para e-commerce
 
 >_💻 Status do projeto: Finalizado._
 
