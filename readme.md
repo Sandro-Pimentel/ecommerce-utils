@@ -1,10 +1,10 @@
-# Criando uma biblioteca para e-commerce
+# Criando uma biblioteca utilitária para e-commerce
 
 >_💻 Status do projeto: Finalizado._
 
 ## Descrição Do Projeto
 
-Foi criada uma aplicação com o objetivo de executar funcionalidades comuns em sistemas de e-commerce pelo terminal. O desafio proposto é transformar a lógica das funcionalidades de geração de qrcodes e senhas em uma biblioteca, promovendo maior facilidade para a utilização desses recursos em outros projetos. O link para o projeto base
+Foi criada uma aplicação com o objetivo de executar funcionalidades comuns em sistemas de e-commerce pelo terminal. O desafio proposto é transformar a lógica das funcionalidades de geração de qrcodes e senhas em uma biblioteca, promovendo o fornecimento desses recursos para outros projetos. O link para o projeto base
 <a src="https://github.com/digitalinnovationone/formacao-nodejs/tree/main/06-shopee-cart"> desenvolvido pelo instrutor. </a>
 
 ## Funções da biblioteca
