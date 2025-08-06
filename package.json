@@ -1,16 +1,18 @@
 {
   "name": "ecommerce-utils",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "dist": "tsup src",
+    "build": "tsup src",
     "start:dev": "tsx --env-file=.env src/index.ts",
     "start:watch": "tsx watch src/index.ts",
-    "start:dist": "npm run dist && node dist/index.js"
+    "start:build": "npm run dist && node dist/index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sandro Pimentel",
+  "license": "MIT",
   "description": "API que reúne funções úteis para trabalhar principalmente com e-commerces.",
   "devDependencies": {
     "@types/qrcode": "^1.5.5",
